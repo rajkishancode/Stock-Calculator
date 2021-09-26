@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+
+body {
+    background-image: url(stock.jpg);
+    background-size: 1800px;
+    font-family: 'Cinzel',
+        serif;
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding-bottom: 1rem;
+}
+#submit-btn {
+    margin: 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 1rem;
+
+}
+
+input{
+    /* border-radius: 3rem; */
+    padding: .4rem .4rem;
+    /* border: none; */
+
+
+}
+
+main {
+    font-size: 1.2rem;
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin: 10px auto;
+    font-weight: bold;
+
+}
